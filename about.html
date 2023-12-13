@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            background-color: #f8f8f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #0066cc;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>About Me</h1>
+    </header>
+
+    <section>
+       
+        <p>
+            Hello, My name is Saruulzaya. I learned thanks to lessons in software creation.
+        </p>
+        <p>Java Spring Boot (Spring Boot) is a tool that makes developing web application
+         and microservices with Spring Framework faster and easier through three core 
+         capabilities: Autoconfiguration. An opinionated approach to configuration.
+          The ability to create standalone applications.
+        </p>
+        <p>
+            Developers choose Cloud Foundry for its application portability, auto-scaling, 
+            infrastructure security, centralized administration and logging, and the ability
+             to use their own tools and code. Developers can code their applications, then tell 
+             Cloud Foundry to push it into production. Its container-based architecture runs apps 
+             in any programming language over a variety of cloud service providers, allowing developers 
+             to use the cloud service that suits the workload, or to move workloads as needed without
+              changing the app. 
+        </p>
+        <p>Spring Cloud for Cloudfoundry makes it easy to run Spring Cloud apps 
+        in Cloud Foundry (the Platform as a Service). Cloud Foundry has the notion 
+        of a "service", which is middlware that you "bind" to an app, essentially providing 
+        it with an environment variable containing credentials (e.g. the location and username 
+        to use for the service).
+
+        </p>
+    </section>
+<div><a th:href="@{/}" class="btn btn-outline-primary btn-sm">Back to Home</a></div>
+    <footer>
+        &copy; 2023 [Saruulzaya]. All rights reserved.
+    </footer>
+
+</body>
+</html>
